@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D552ED1A1A63733E0056D4F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552ED191A63733E0056D4F8 /* AppDelegate.swift */; };
-		D552ED1C1A63733E0056D4F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552ED1B1A63733E0056D4F8 /* ViewController.swift */; };
+		D552ED1C1A63733E0056D4F8 /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552ED1B1A63733E0056D4F8 /* settings.swift */; };
 		D552ED1F1A63733E0056D4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D552ED1D1A63733E0056D4F8 /* Main.storyboard */; };
 		D552ED211A63733E0056D4F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D552ED201A63733E0056D4F8 /* Images.xcassets */; };
 		D552ED241A63733E0056D4F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D552ED221A63733E0056D4F8 /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		D552ED141A63733E0056D4F8 /* Tips Demo for Entry to Class.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tips Demo for Entry to Class.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D552ED181A63733E0056D4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D552ED191A63733E0056D4F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D552ED1B1A63733E0056D4F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D552ED1B1A63733E0056D4F8 /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
 		D552ED1E1A63733E0056D4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D552ED201A63733E0056D4F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D552ED231A63733E0056D4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,9 +77,10 @@
 		D552ED161A63733E0056D4F8 /* Tips Demo for Entry to Class */ = {
 			isa = PBXGroup;
 			children = (
+				D552ED3A1A63A4B80056D4F8 /* ViewControllers */,
 				D552ED191A63733E0056D4F8 /* AppDelegate.swift */,
-				D552ED1B1A63733E0056D4F8 /* ViewController.swift */,
 				D552ED1D1A63733E0056D4F8 /* Main.storyboard */,
+				D552ED1B1A63733E0056D4F8 /* settings.swift */,
 				D552ED201A63733E0056D4F8 /* Images.xcassets */,
 				D552ED221A63733E0056D4F8 /* LaunchScreen.xib */,
 				D552ED171A63733E0056D4F8 /* Supporting Files */,
@@ -110,6 +111,13 @@
 				D552ED2E1A63733E0056D4F8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D552ED3A1A63A4B80056D4F8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D552ED1C1A63733E0056D4F8 /* ViewController.swift in Sources */,
+				D552ED1C1A63733E0056D4F8 /* settings.swift in Sources */,
 				D552ED1A1A63733E0056D4F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tips Demo for Entry to Class/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tips Demo for Entry to Class/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
